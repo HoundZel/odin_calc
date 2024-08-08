@@ -57,12 +57,19 @@ body {
 }
 
 #clear{
-    width:40%;
     background-color: rgb(233, 151, 0);
 }
 #clear:hover{
     background-color: rgb(209, 146, 0);
 }
+
+#restart{
+    background-color: rgb(199, 0, 0);
+}
+#restart:hover{
+    background-color: rgb(163, 0, 0);
+}
+
 #zero{
     width:40%;
 }
@@ -72,4 +79,20 @@ body {
 
 .btn:hover{
     background-color: #a8a8a8;
+}
+
+#top{
+    /*border: 2px solid red;*/
+    display: flex;
+    width: 90%;
+    height: 30%;
+    font-size: large;
+}
+
+#bottom{
+    /*border: 2px solid red;*/
+    display: flex;
+    width: 90%;
+    height: 45%;
+    font-size: x-large;
 }
